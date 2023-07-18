@@ -1,0 +1,16 @@
+180 эпох                    1000,5000,10000,50000,100000,500000,1000000
+convmodel+BN                4.1%
+convmodel+BN+LR+D           1.4%
+convmodel+BN+LR             3.2%
+convmodel+BN+R              8.69%
+convmodel                   2.7%
+convmodel+R                 1%
+convmodel+BN+R Adam         10.3%
+convmodel+BN+R Adam cutmix  9.1%
+convmodel+BN+R moment       9.8%
+rnetbn LR                        17.6%
+rnetbn                      6.8%
+rnetbn+BN+R                 5.6%              33.76%        36%     39%
+rnetbn+BN+R+group                22.3%  28.4%      41.2%
+rnetbn+BN+R+group+cutmix                25.8% 43%  46.5%    49.6%  50%
+пробовал аугментацию через расширение изображения и вырезания рандом кропа результат только ухудшился
